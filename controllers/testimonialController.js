@@ -20,7 +20,7 @@ const guardarTestimonial = async (req, res) => {
 
     if (errores.length > 0) {
 
-        // COnsultar testimoniales existentes
+        // Consultar testimoniales existentes
         const testimoniales = await Testimonial.findAll();
 
         // Mostrar la vista con errores
